@@ -1,0 +1,10 @@
+lw r1, 0(r0)
+divd r3, r0, r1
+mul r3, r1, r2
+add r5, r3, r1
+sw r5, 4(r0)
+add r6, r2, r8
+add r6, r7, r8
+sw r3, 8(r0)
+lw r9, 4(r0)
+add r3, r8, r9
